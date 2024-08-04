@@ -4,7 +4,12 @@ coco.names file: https://github.com/pjreddie/darknet/blob/master/data/coco.names
 
 yolov3.cfg file: https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg 
 
+
+
+
 Reference: 
+
+
 [1] https://github.com/patrick013/Object-Detection---Yolov3
 
 [2] https://machinelearningspace.com/coco-dataset-a-step-by-step-guide-to-loading-and-visualizing/
