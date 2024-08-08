@@ -1,5 +1,5 @@
-import cv2
-import numpy as np
+import cv2 # Download opencv-python in the python packages 
+import numpy as np # Download numpy as well 
 
 # Load YOLOv3 weights and configuration
 weights_path = 'yolov3.weights'
@@ -82,6 +82,7 @@ while True:
                             class_ids.append(class_id)
             else:
                 print(f"Unexpected number of values per detection: {num_values}")
+                
         elif len(out.shape) == 3:
             for detection in out:
                 if detection.shape[1] == 85:
