@@ -1,5 +1,5 @@
-import cv2
-import numpy as np
+import cv2 # Download opencv-python in the python packages 
+import numpy as np # Download numpy as well 
 
 # Load YOLOv3 weights and configuration
 weights_path = 'yolov3.weights'
@@ -14,7 +14,7 @@ with open(coco_names_path, 'r') as f:
     classes = [line.strip() for line in f.readlines()]
 
 # Load image
-image_path = '4.jpg'  # Change this to the path of your image
+image_path = '1.jpg'
 image = cv2.imread(image_path)
 height, width, _ = image.shape
 
