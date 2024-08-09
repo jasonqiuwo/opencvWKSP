@@ -4,7 +4,7 @@ yolov3.weights file: https://github.com/patrick013/Object-Detection---Yolov3/blo
 
 coco.names file: https://github.com/pjreddie/darknet/blob/master/data/coco.names
 
-yolov3.cfg file: https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg 
+yolov3.cfg file: https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
 
 The images loaded are trained with following sample results: 
 
